@@ -1,0 +1,222 @@
+.color-special {
+  background-color: #e5c8b1;
+  padding: 30px 150px;
+}
+.margin {
+  padding: 0px 150px;
+}
+.custom-btn {
+  font-size: 15px;
+  padding: 4px 8px;
+  line-height: 2;
+  color: #ffffff;
+}
+.color-speciall {
+  background-color: #50352a;
+}
+.full-screen-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #e5c8b1, #ffffff);
+}
+.timeline-horizontal {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  margin: 2rem 1rem;
+  flex-wrap: wrap;
+}
+.timeline-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.circle {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 1;
+}
+.line {
+  width: 80px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 7px;
+  left: 100%;
+  z-index: 0;
+}
+.step-content {
+  margin-top: 10px;
+}
+.step-content h4 {
+  margin: 0;
+  color: black;
+  font-size: 1rem;
+}
+.step-content p {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+}
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.timeline h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.timeline-container {
+  position: relative;
+  padding: 10px 0;
+}
+
+.timeline-container::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  background-color: #3a291b;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.timeline-item {
+  padding: 20px;
+  position: relative;
+  width: 50%;
+}
+
+.timeline-item.left {
+  left: 0;
+}
+
+.timeline-item.right {
+  left: 50%;
+}
+
+.timeline-item .content {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  position: relative;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item .date {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #3a291b;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  right: -10px;
+  background-color: #fff;
+  border: 4px solid #3a291b;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item.right::before {
+  left: -10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-section {
+  background-color: #fff;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 40px;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.contact-form button {
+  background-color: #3a291b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.contact-form button:hover {
+  background-color: #3a291b;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu-button {
+  display: inline-block;
+  max-width: 200px; /* atur sesuai kebutuhan */
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #3a2a1a; /* warna tombol */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
